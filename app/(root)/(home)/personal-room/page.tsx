@@ -8,7 +8,6 @@ import { useGetCalledById } from "@/hooks/useGetCalledById";
 import { Button } from "@/components/ui/button";
 import { useToast } from "@/hooks/use-toast";
 
-
 const Table = ({
   title,
   description,
@@ -32,7 +31,7 @@ const PersonalRoom = () => {
   const router = useRouter();
   const { user } = useUser();
   const client = useStreamVideoClient();
-  const {toast}=useToast()
+  const { toast } = useToast();
 
   const meetingId = user?.id;
 

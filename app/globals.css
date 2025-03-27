@@ -55,13 +55,11 @@
 
 /* ==== clerk class override ===== */
 
-
-
 .cl-userButtonPopoverActionButtonIcon {
   color: white;
 }
 
-.cl-socialButtonsProviderIcon__github{
+.cl-socialButtonsProviderIcon__github {
   filter: invert(1);
   -webkit-filter: invert(1);
 }
