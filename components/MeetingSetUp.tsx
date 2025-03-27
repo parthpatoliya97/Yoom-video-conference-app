@@ -1,5 +1,4 @@
 import {
-  Call,
   DeviceSettings,
   useCall,
   VideoPreview,
