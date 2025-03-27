@@ -6,11 +6,13 @@ const Home = () => {
   const time = now.toLocaleTimeString("en-IN", {
     hour: "2-digit",
     minute: "2-digit",
+    timeZone: "Asia/Kolkata",
   });
 
-  const date = new Intl.DateTimeFormat("en-IN", { dateStyle: "full" }).format(
-    now
-  );
+  const date = new Intl.DateTimeFormat("en-IN", {
+    dateStyle: "full",
+    timeZone: "Asia/Kolkata",
+  }).format(now);
   return (
     <section className="flex size-full flex-col gap-10 text-white">
       <div className="h-[300px] w-full rounded-[20px] bg-hero bg-cover">
