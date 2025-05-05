@@ -3,7 +3,7 @@ import React, { ReactNode } from "react";
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Yoom",
+  title: "JupiterMeet",
   description:
     "Video Conferencing App Built By Clerk,Stream,Next.js,Typescript,Tailwind CSS",
   icons: {

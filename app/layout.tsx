@@ -21,7 +21,7 @@ const geistMono = localFont({
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  title: "Yoom",
+  title: "JupiterMeet",
   description:
     "Video Conferencing App Built By Clerk,Stream,Next.js,Typescript,Tailwind CSS",
   icons: {
@@ -39,7 +39,7 @@ export default function RootLayout({
       <ClerkProvider
         appearance={{
           layout: {
-            logoImageUrl: "/icons/yoom-logo.svg",
+            logoImageUrl: "/icons/logo.svg",
             socialButtonsVariant: "iconButton",
           },
           variables: {
